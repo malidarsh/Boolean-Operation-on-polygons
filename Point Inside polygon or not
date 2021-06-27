@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 a = [1,1.5]   #point which we have to check whether it is inside or outside polygoan
-poly = [[1,1], [2,1], [2,2], [1,2], [0.5,1.5]]  #polygon 
+poly = [[1,1], [2,1], [2,2], [1,2]]  #polygon 
 poly.append(coord[0]) #repeat the first point to create a 'closed loop'
 
 xs, ys = zip(*poly) #create lists of x and y values
