@@ -24,7 +24,7 @@ def Intersection(a,b,c,d):
 def pointinsidepoly(a, poly):
     count = 0
     for i in range(len(poly)-1):
-        if Intersection(poly[i], poly[i+1], a, [c1,c2] ):
+        if Intersection(poly[i], poly[i+1], a, [222,222] ):
             count = count+1
     if count ==0 or count ==2:
         return False
